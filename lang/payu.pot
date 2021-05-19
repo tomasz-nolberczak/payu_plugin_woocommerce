@@ -3,258 +3,191 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PayU Payment Gateway\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-11 06:52+0000\n"
+"POT-Creation-Date: 2020-04-06 10:23+0000\n"
+"POT-Revision-Date: Wed Aug 10 2016 12:41:33 GMT+0200 (Central European "
+"Daylight Time)\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: PayU\n"
+"Last-Translator: \n"
 "Language-Team: \n"
 "Language: \n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Loco https://localise.biz/\n"
-"X-Loco-Version: 2.5.2; wp-5.7\n"
-"X-Domain: payu"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco https://localise.biz/"
 
-#: includes/WC_PayUGateways.php:790 includes/WC_PayUGateways.php:949
-msgid " for order: "
+#: includes/class-woocommerce-payu.php:42
+#: includes/class-woocommerce-payu.php:436
+msgid "PayU"
 msgstr ""
 
-#: includes/WC_PayUGateways.php:146
-#, php-format
-msgid "<a href=\"%s\" target=\"_blank\">PayU privacy policy</a>"
+#: includes/class-woocommerce-payu.php:43
+msgid "Official PayU payment gateway for WooCommerce."
 msgstr ""
 
-#: includes/WC_PayUGateways.php:129
-#, php-format
-msgid ""
-"<span>I accept <a href=\"%s\" target=\"_blank\">Terms of single PayU payment "
-"transaction</a></span>"
-msgstr ""
-
-#: woocommerce-gateway-payu.php:287
-#, php-format
-msgid "[PayU] User %s accepted payment"
-msgstr ""
-
-#: woocommerce-gateway-payu.php:298
-#, php-format
-msgid "[PayU] User %s rejected payment"
-msgstr ""
-
-#: includes/WC_PayUGateways.php:687
+#: includes/class-woocommerce-payu.php:214
 msgid "Awaiting PayU payment."
 msgstr ""
 
-#: woocommerce-gateway-payu.php:178 woocommerce-gateway-payu.php:202
-msgid "Awaiting receipt of payment"
+#: includes/class-woocommerce-payu.php:223
+msgid "Payment error. Status code: "
 msgstr ""
 
-#: includes/PayUSettings.php:218
+#: includes/class-woocommerce-payu.php:228
+msgid "Payment error: "
+msgstr ""
+
+#: includes/class-woocommerce-payu.php:271
+msgid "Payment has been cancelled."
+msgstr ""
+
+#: includes/class-woocommerce-payu.php:275
+msgid "Payment has been rejected."
+msgstr ""
+
+#: includes/class-woocommerce-payu.php:285
 msgid ""
-"Before enabling repayment, read <a target=\"_blank\" href=\"https://github."
-"com/PayU-EMEA/plugin_woocommerce#ponawianie-p%C5%82atno%C5%9Bci\">the "
-"documentation</a> and disable <strong>automatic collection</strong> in POS "
-"configuration."
+"Payment has been put on hold - merchant must approve this payment manually."
 msgstr ""
 
-#: includes/WC_PayUGateways.php:199
-msgid "Blik"
+#: includes/class-woocommerce-payu.php:314
+msgid "Refund of: "
 msgstr ""
 
-#: includes/WC_Gateway_PayuSecureForm.php:99
-msgid "Card number"
+#: includes/class-woocommerce-payu.php:314
+msgid " for order: "
 msgstr ""
 
-#: includes/WC_PayUGateways.php:187 includes/WC_PayUGateways.php:193
-msgid "Card payment with PayU"
-msgstr ""
-
-#: includes/WC_PayUGateways.php:182 includes/WC_Gateway_PayuListBanks.php:98
-msgid "Choose payment method."
-msgstr ""
-
-#: includes/PayUSettings.php:33 includes/PayUSettings.php:51
-msgid ""
-"Client Id for OAuth identifier  from \"Configuration Keys\" section of PayU "
-"management panel."
-msgstr ""
-
-#: includes/WC_PayUGateways.php:295 includes/WC_PayUGateways.php:296
-msgid "Custom order, separate payment methods with commas"
-msgstr ""
-
-#: includes/WC_PayUGateways.php:293
-msgid "Custom order:"
-msgstr ""
-
-#: includes/WC_Gateway_PayuSecureForm.php:111
-msgid "CVV"
-msgstr ""
-
-#. id
-#: includes/PayUSettings.php:144
-msgid "Default on-hold status"
-msgstr ""
-
-#: includes/WC_PayUGateways.php:370
-msgid "Description of PayU Payment Gateway that users sees on Checkout page."
-msgstr ""
-
-#: includes/WC_PayUGateways.php:368
-msgid "Description:"
-msgstr ""
-
-#: woocommerce-gateway-payu.php:249
-msgid "Discard payment"
-msgstr ""
-
-#: woocommerce-gateway-payu.php:134
-msgid "Docs"
-msgstr ""
-
-#: includes/WC_PayUGateways.php:375
-msgid "Enable for shipping methods"
-msgstr ""
-
-#: includes/WC_PayUGateways.php:257
+#: includes/class-woocommerce-payu.php:427
 msgid "Enable PayU payment method"
 msgstr ""
 
-#. id
-#: includes/PayUSettings.php:151
-msgid "Enable repayment"
+#: includes/class-woocommerce-payu.php:429
+msgid ""
+"If you do not already have PayU merchant account, <a href=\"https://secure."
+"payu.com/boarding/#/form&pk_campaign=Plugin&pk_kwd=WooCommerce\" "
+"target=\"_blank\">please register in Production</a> or <a href=\"https:"
+"//secure.snd.payu."
+"com/boarding/#/form&pk_campaign=Plugin&pk_kwd=WooCommerce\" "
+"target=\"_blank\">please register in Sandbox</a>."
 msgstr ""
 
-#: includes/WC_Gateway_PayuSecureForm.php:105
-msgid "Expire date"
+#: includes/class-woocommerce-payu.php:433
+msgid "Title:"
 msgstr ""
 
-#: includes/PayUSettings.php:38 includes/PayUSettings.php:56
-msgid "First key from \"Configuration Keys\" section of PayU management panel."
+#: includes/class-woocommerce-payu.php:435
+msgid "Title of PayU Payment Gateway that users sees on Checkout page."
 msgstr ""
 
-#: includes/WC_PayUGateways.php:902
-msgid "has status"
+#: includes/class-woocommerce-payu.php:440
+msgid "Sandbox mode:"
 msgstr ""
 
-#. Author URI of the plugin
-msgid "http://www.payu.com"
+#: includes/class-woocommerce-payu.php:442
+msgid "Use sandbox environment."
 msgstr ""
 
-#. URI of the plugin
-msgid "https://github.com/PayU/plugin_woocommerce"
+#: includes/class-woocommerce-payu.php:454
+msgid "Description:"
 msgstr ""
 
-#: includes/PayUSettings.php:23
-msgid "Id point of sales"
+#: includes/class-woocommerce-payu.php:456
+msgid "Description of PayU Payment Gateway that users sees on Checkout page."
 msgstr ""
 
-#: includes/WC_PayUGateways.php:380
+#: includes/class-woocommerce-payu.php:457
+msgid ""
+"PayU is a leading payment services provider with presence in 16 growth "
+"markets across the world."
+msgstr ""
+
+#: includes/class-woocommerce-payu.php:461
+msgid "Enable for shipping methods"
+msgstr ""
+
+#: includes/class-woocommerce-payu.php:466
 msgid ""
 "If PayU is only available for certain methods, set it up here. Leave blank "
 "to enable for all methods."
 msgstr ""
 
-#: includes/WC_PayUGateways.php:259
+#: includes/class-woocommerce-payu.php:470
+msgid "Select shipping methods"
+msgstr ""
+
+#: includes/class-woocommerce-payu.php:474
+msgid "Automatic collection:"
+msgstr ""
+
+#: includes/class-woocommerce-payu.php:476
 msgid ""
-"If you do not already have PayU merchant account, <a href=\"https://poland."
-"payu.com/en/how-to-activate-payu/\" target=\"_blank\" rel=\"nofollow\">"
-"please register in Production</a> or <a href=\"https://secure.snd.payu."
-"com/boarding/#/registerSandbox/?lang=en\" target=\"_blank\" rel=\"nofollow\">"
-"please register in Sandbox</a>."
+"Automatic collection makes it possible to automatically confirm incoming "
+"payments."
 msgstr ""
 
-#: includes/WC_PayUGateways.php:1009
-msgid "If you have not yet paid for the order, you can do so by going to"
+#: includes/class-woocommerce-payu.php:501
+msgid "Id point of sales:"
 msgstr ""
 
-#: includes/PayUSettings.php:32
-msgid "OAuth - client_id"
-msgstr ""
-
-#: includes/PayUSettings.php:37
-msgid "OAuth - client_secret"
-msgstr ""
-
-#: includes/WC_PayUGateways.php:162
-msgid "Official PayU payment gateway for WooCommerce."
-msgstr ""
-
-#: includes/WC_PayUGateways.php:175 includes/WC_PayUGateways.php:181
-msgid "Online payment by PayU"
-msgstr ""
-
-#: html/payu-repayment.php:4
-msgid "Pay with"
-msgstr ""
-
-#: woocommerce-gateway-payu.php:223
-msgid "Pay with PayU"
-msgstr ""
-
-#: includes/WC_PayUGateways.php:702
-msgid "Payment error. Status code: "
-msgstr ""
-
-#: includes/WC_PayUGateways.php:707
-msgid "Payment error: "
-msgstr ""
-
-#: includes/WC_PayUGateways.php:670
-msgid "Payment error: accept terms and conditions"
-msgstr ""
-
-#: includes/WC_PayUGateways.php:920
-msgid "Payment has been cancelled."
-msgstr ""
-
-#: includes/WC_PayUGateways.php:938
+#: includes/class-woocommerce-payu.php:503
+#: includes/class-woocommerce-payu.php:527
 msgid ""
-"Payment has been put on hold - merchant must approve this payment manually."
+"Pos identifier from \"Configuration Keys\" section of PayU management panel."
 msgstr ""
 
-#: includes/WC_PayUGateways.php:925
-msgid "Payment has been rejected."
+#: includes/class-woocommerce-payu.php:507
+msgid "Second key (MD5):"
 msgstr ""
 
-#: includes/WC_PayUGateways.php:133
+#: includes/class-woocommerce-payu.php:509
+#: includes/class-woocommerce-payu.php:533
 msgid ""
-"Payment is processed by PayU SA; The recipient's data, the payment title and "
-"the amount are provided to PayU SA by the recipient;"
+"Second key from \"Configuration Keys\" section of PayU management panel."
 msgstr ""
 
-#: includes/WC_PayUGateways.php:198
-msgid "PayU - Blik"
+#: includes/class-woocommerce-payu.php:513
+msgid "OAuth - client_id:"
 msgstr ""
 
-#: includes/WC_PayUGateways.php:186
-msgid "PayU - credit card"
+#: includes/class-woocommerce-payu.php:515
+#: includes/class-woocommerce-payu.php:539
+msgid ""
+"Client Id for OAuth identifier  from \"Configuration Keys\" section of PayU "
+"management panel."
 msgstr ""
 
-#: includes/WC_PayUGateways.php:204
-msgid "PayU - installments"
+#: includes/class-woocommerce-payu.php:519
+msgid "OAuth - client_secret:"
 msgstr ""
 
-#: includes/WC_PayUGateways.php:180
-msgid "PayU - list banks"
+#: includes/class-woocommerce-payu.php:521
+#: includes/class-woocommerce-payu.php:545
+msgid "First key from \"Configuration Keys\" section of PayU management panel."
 msgstr ""
 
-#: includes/WC_PayUGateways.php:192
-msgid "PayU - secure form"
+#: includes/class-woocommerce-payu.php:525
+msgid "Sandbox - Id point of sales:"
 msgstr ""
 
-#: includes/WC_PayUGateways.php:174
-msgid "PayU - standard"
+#: includes/class-woocommerce-payu.php:531
+msgid "Sandbox - Second key (MD5):"
 msgstr ""
 
-#. id
-#: includes/PayUSettings.php:115
-msgid "PayU config global"
+#: includes/class-woocommerce-payu.php:537
+msgid "Sandbox - OAuth - client_id:"
 msgstr ""
 
-#: includes/WC_PayUGateways.php:205
-msgid "PayU installments"
+#: includes/class-woocommerce-payu.php:543
+msgid "Sandbox - OAuth - client_secret:"
 msgstr ""
 
 #. Name of the plugin
@@ -265,165 +198,14 @@ msgstr ""
 msgid "PayU payment gateway for WooCommerce"
 msgstr ""
 
+#. URI of the plugin
+msgid "https://github.com/PayU/plugin_woocommerce"
+msgstr ""
+
 #. Author of the plugin
 msgid "PayU SA"
 msgstr ""
 
-#. page_title
-#: includes/PayUSettings.php:68 includes/PayUSettings.php:69
-#: includes/PayUSettings.php:85
-msgid "PayU settings"
-msgstr ""
-
-#: includes/PayUSettings.php:24 includes/PayUSettings.php:42
-msgid ""
-"Pos identifier from \"Configuration Keys\" section of PayU management panel."
-msgstr ""
-
-#: includes/WC_PayUGateways.php:134 includes/WC_PayUGateways.php:138
-msgid "read more"
-msgstr ""
-
-#: woocommerce-gateway-payu.php:248
-msgid "Receive payment"
-msgstr ""
-
-#: includes/WC_PayUGateways.php:790 includes/WC_PayUGateways.php:948
-msgid "Refund of: "
-msgstr ""
-
-#: includes/PayUSettings.php:41
-msgid "Sandbox - Id point of sales"
-msgstr ""
-
-#: includes/PayUSettings.php:50
-msgid "Sandbox - OAuth - client_id:"
-msgstr ""
-
-#: includes/PayUSettings.php:55
-msgid "Sandbox - OAuth - client_secret:"
-msgstr ""
-
-#: includes/PayUSettings.php:46
-msgid "Sandbox - Second key (MD5):"
-msgstr ""
-
-#: includes/WC_PayUGateways.php:271
-msgid "Sandbox mode:"
-msgstr ""
-
-#: includes/PayUSettings.php:28
-msgid "Second key (MD5)"
-msgstr ""
-
-#: includes/PayUSettings.php:29 includes/PayUSettings.php:47
-msgid ""
-"Second key from \"Configuration Keys\" section of PayU management panel."
-msgstr ""
-
-#: includes/WC_PayUGateways.php:385
-msgid "Select shipping methods"
-msgstr ""
-
-#: includes/WC_PayUGateways.php:303
-msgid "show"
-msgstr ""
-
-#: includes/WC_PayUGateways.php:300
-msgid "Show inactive methods:"
-msgstr ""
-
-#: includes/WC_PayUGateways.php:302
-msgid "Show inactive payment methods as grayed out"
-msgstr ""
-
-#: includes/WC_Gateway_PayuSecureForm.php:98
-msgid "The card could not be sent"
-msgstr ""
-
-#: includes/WC_PayUGateways.php:137
-msgid ""
-"The controller of your personal data is PayU S.A. with its registered office "
-"in Poznan (60-166), at Grunwaldzka Street 182 (\"PayU\")."
-msgstr ""
-
-#: includes/WC_PayUGateways.php:135
-msgid ""
-"The order is sent for processing when PayU SA receives your payment. The "
-"payment is transferred to the recipient within 1 hour, not later than until "
-"the end of the next business day; PayU SA does not charge any service fees."
-msgstr ""
-
-#: includes/WC_PayUGateways.php:142
-msgid ""
-"The recipients of your personal data may be entities cooperating with PayU "
-"during processing the payment. Depending on the payment method you choose, "
-"these may include: banks, payment institutions, loan institutions, payment "
-"card organizations, payment schemes), as well as suppliers supporting PayU’s "
-"activity providing: IT infrastructure, payment risk analysis tools and also "
-"entities that are authorised to receive it under the applicable provisions "
-"of law, including relevant judicial authorities. Your personal data may be "
-"shared with merchants to inform them about the status of the payment."
-msgstr ""
-
-#: includes/WC_PayUGateways.php:1011 includes/WC_PayUGateways.php:1012
-msgid "the website"
-msgstr ""
-
-#: includes/WC_PayUGateways.php:266
-msgid "Title of PayU Payment Gateway that users sees on Checkout page."
-msgstr ""
-
-#: includes/WC_PayUGateways.php:264
-msgid "Title:"
-msgstr ""
-
-#: includes/WC_PayUGateways.php:279
-msgid "Use global values."
-msgstr ""
-
-#: includes/WC_PayUGateways.php:277
-msgid "Use global values:"
-msgstr ""
-
-#: includes/WC_PayUGateways.php:273
-msgid "Use sandbox environment."
-msgstr ""
-
-#: includes/WC_PayUGateways.php:144
-msgid ""
-"You have the right to access, rectify, restrict or oppose the processing of "
-"data, not to be subject to automated decision making, including profiling, "
-"or to transfer and erase Your personal data. Providing personal data is "
-"voluntary however necessary for the processing the payment and failure to "
-"provide the data may result in the rejection of the payment. For more "
-"information on how PayU processes your personal data, please click "
-msgstr ""
-
-#: includes/WC_PayUGateways.php:194
-msgid "You may be redirected to a payment confirmation page."
-msgstr ""
-
-#: includes/WC_PayUGateways.php:188
-msgid "You will be redirected to a card form."
-msgstr ""
-
-#: includes/WC_PayUGateways.php:176
-msgid "You will be redirected to a payment method selection page."
-msgstr ""
-
-#: includes/WC_PayUGateways.php:206
-msgid "You will be redirected to an installment payment application."
-msgstr ""
-
-#: includes/WC_PayUGateways.php:200
-msgid "You will be redirected to BLIK."
-msgstr ""
-
-#: includes/WC_PayUGateways.php:140
-msgid ""
-"Your personal data will be processed for purposes of processing  payment "
-"transaction, notifying You about the status of this payment, dealing with "
-"complaints and also in order to fulfill the legal obligations imposed on "
-"PayU."
+#. Author URI of the plugin
+msgid "http://www.payu.com"
 msgstr ""

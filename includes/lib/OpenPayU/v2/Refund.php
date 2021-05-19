@@ -15,13 +15,11 @@ class OpenPayU_Refund extends OpenPayU
      * Function make refund for order
      * @param $orderId
      * @param $description
-     * @param null|int $amount Amount of refund in pennies
-     * @param null|string $extCustomerId Marketplace external customer ID
-     * @param null|string $extRefundId Marketplace external refund ID
+     * @param int $amount Amount of refund in pennies
      * @return null|OpenPayU_Result
      * @throws OpenPayU_Exception
      */
-    public static function create($orderId, $description, $amount = null, $extCustomerId = null, $extRefundId = null)
+    public static function create($orderId, $description, $amount = null)
     {
         if (empty($orderId)) {
             throw new OpenPayU_Exception('Invalid orderId value for refund');
@@ -36,15 +34,7 @@ class OpenPayU_Refund extends OpenPayU
         );
 
         if (!empty($amount)) {
-            $refund['refund']['amount'] = (int) $amount;
-        }
-
-        if (!empty($extCustomerId)) {
-            $refund['refund']['extCustomerId'] = $extCustomerId;
-        }
-
-        if (!empty($extRefundId)) {
-            $refund['refund']['extRefundId'] = $extRefundId;
+            $refund['refund']['amount'] = (int)$amount;
         }
 
         try {

@@ -14,8 +14,7 @@ class OpenPayU_Result
     private $error = '';
     private $success = 0;
     private $request = '';
-    /** @var object */
-    private $response;
+    private $response = '';
     private $sessionId = '';
     private $message = '';
     private $countryCode = '';
@@ -95,7 +94,7 @@ class OpenPayU_Result
 
     /**
      * @access public
-     * @return object
+     * @return string
      */
     public function getResponse()
     {
